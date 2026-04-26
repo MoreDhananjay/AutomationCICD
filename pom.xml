@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>DUMAcademy</groupId>
-  <artifactId>SeleniumFrameworkMar2026</artifactId>
+  <artifactId>SeleniumFrameworkMay2026</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>SeleniumFrameworkMar2026</name>
+  <name>SeleniumFrameworkMay2026</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
