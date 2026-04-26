@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="DUMAcademy.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validations Test(failed)">
+    <classes>
+      <class name="DUMAcademy.Tests.ErrorValidationsTest">
+        <methods>
+          <include name="loginErrorValidation"/>
+          <include name="productErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="lauchApplication"/>
+        </methods>
+      </class> <!-- DUMAcademy.Tests.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Error Validations Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

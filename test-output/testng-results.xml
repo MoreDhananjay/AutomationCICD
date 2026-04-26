@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="3" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T09:22:43Z" name="Suite" finished-at="2026-04-24T09:23:29Z" duration-ms="46356">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" name="submitOrder" class="DUMAcademy.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" name="loginErrorValidation" class="DUMAcademy.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2026-04-24T09:22:43Z" name="Submit Order Test" finished-at="2026-04-24T09:23:29Z" duration-ms="46356">
+      <class name="DUMAcademy.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:22:44Z" name="lauchApplication" finished-at="2026-04-24T09:22:49Z" duration-ms="4995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:22:49Z" name="submitOrder" data-provider="getData2" finished-at="2026-04-24T09:23:06Z" duration-ms="17843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=India@2025, product=ZARA COAT 3, email=dhananjay1.more@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:23:06Z" name="tearDown" finished-at="2026-04-24T09:23:07Z" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:23:07Z" name="lauchApplication" finished-at="2026-04-24T09:23:12Z" duration-ms="4798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:23:12Z" name="submitOrder" data-provider="getData2" finished-at="2026-04-24T09:23:17Z" duration-ms="4529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=India@2025, product=ADIDAS ORIGINAL, email=dhananjay1.more@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:23:17Z" name="tearDown" finished-at="2026-04-24T09:23:17Z" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:23:17Z" name="lauchApplication" finished-at="2026-04-24T09:23:27Z" duration-ms="9547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:23:27Z" name="orderHistoryTest" finished-at="2026-04-24T09:23:29Z" depends-on-methods="DUMAcademy.Tests.SubmitOrderTest.submitOrder" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DUMAcademy.Tests.SubmitOrderTest@16ecee1]" started-at="2026-04-24T09:23:29Z" name="tearDown" finished-at="2026-04-24T09:23:29Z" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DUMAcademy.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2026-04-24T09:22:43Z" name="Error Validations Test" finished-at="2026-04-24T09:23:28Z" duration-ms="45405">
+      <class name="DUMAcademy.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:22:43Z" name="lauchApplication" finished-at="2026-04-24T09:22:50Z" duration-ms="7067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:22:50Z" name="loginErrorValidation" finished-at="2026-04-24T09:22:51Z" duration-ms="1101" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at DUMAcademy.Tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:22:51Z" name="tearDown" finished-at="2026-04-24T09:22:51Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:22:51Z" name="lauchApplication" finished-at="2026-04-24T09:22:55Z" duration-ms="4095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:22:55Z" name="loginErrorValidation" finished-at="2026-04-24T09:22:56Z" duration-ms="905" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at DUMAcademy.Tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:22:57Z" name="tearDown" finished-at="2026-04-24T09:22:57Z" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lauchApplication()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:22:57Z" name="lauchApplication" finished-at="2026-04-24T09:23:02Z" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:23:02Z" name="productErrorValidation" finished-at="2026-04-24T09:23:27Z" duration-ms="25003" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at DUMAcademy.Tests.ErrorValidationsTest.productErrorValidation(ErrorValidationsTest.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DUMAcademy.Tests.ErrorValidationsTest@2bef51f2]" started-at="2026-04-24T09:23:27Z" name="tearDown" finished-at="2026-04-24T09:23:28Z" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DUMAcademy.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
